@@ -1,0 +1,84 @@
+.text-field{
+    -fx-font-family: 'Helvetica';
+    -fx-font-size: 13;
+    -fx-padding: 2;
+    -fx-border-color: grey;
+    -fx-border-width: 2;
+    -fx-border-radius: 25;
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+    -fx-pref-width: 200;
+    -fx-prompt-text-fill: green;
+}
+
+.radio-button .radio{
+    -fx-font-family: 'Helvetica';
+    -fx-border-width: 1px;
+    -fx-border-color: #323232;
+    -fx-background-color: white;
+    -fx-border-radius: 15px;
+    -fx-padding: 3px;
+}
+.radio-button .radio:selected {
+    -fx-background-color: white;
+}
+.radio-button -radio:armed {
+    -fx-background-color: white;
+}
+.radio-button -radio:determinate {
+    -fx-background-color: white;
+}
+.radio-button -radio:indeterminate {
+    -fx-background-color: white;
+}
+.radio-button .dot {
+    -fx-background-radius: 15px;
+    -fx-padding: 8px;
+}
+.radio-button .text{
+    -fx-fill: white;
+}
+
+.label{
+    -fx-font-family: 'Helvetica';
+    -fx-font-size: 15;
+    -fx-text-fill: white;
+}
+
+#btSignUp{
+    -fx-alignment: center;
+    -fx-font-family:'Helvetica';
+    -fx-font-size: 20;
+    -fx-padding: 2;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-background-color: green;
+    -fx-pref-width: 200px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , #999 , 10,0,0,1 );
+}
+
+
+#btLogIn{
+    -fx-alignment: center;
+    -fx-font-family:'Helvetica';
+    -fx-font-size: 20;
+    -fx-padding: 2;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-background-color: green;
+    -fx-pref-width: 350px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , #999 , 10,0,0,1 );
+}
+
+.button:pressed{
+    -fx-background-color: green;
+    -fx-translate-y: 4px;
+}
+
+#error-text{
+    -fx-fill: red;
+    -fx-font-family: Arial;
+    -fx-font-size: 16px;
+}

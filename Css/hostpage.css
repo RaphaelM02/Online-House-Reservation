@@ -1,0 +1,220 @@
+#settings-button{
+    -fx-border-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-color: limegreen;
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-border-insets: 5,5,5,5;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-font-weight: bold;
+    -fx-content-display: left;
+}
+
+#home-button{
+    -fx-border-color: transparent;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-border-insets: 5,5,5,5;
+    -fx-background-insets: 0;
+    -fx-background-color: limegreen;
+    -fx-background-radius: 25;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-font-weight: bold;
+    -fx-content-display: left;
+}
+
+#calendar-button{
+    -fx-border-color: transparent;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-border-insets: 5,5,5,5;
+    -fx-background-insets: 0;
+    -fx-background-color: limegreen;
+    -fx-background-radius: 25;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-font-weight: bold;
+    -fx-content-display: left;
+}
+
+#logout-button{
+    -fx-border-color: transparent;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-border-insets: 5,5,5,5;
+    -fx-background-insets: 0;
+    -fx-background-color: limegreen;
+    -fx-background-radius: 25;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-font-weight: bold;
+    -fx-content-display: left;
+}
+
+#list-button{
+    -fx-border-color: transparent;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-border-insets: 5,5,5,5;
+    -fx-background-insets: 0;
+    -fx-background-color: limegreen;
+    -fx-background-radius: 25;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-font-weight: bold;
+    -fx-content-display: left;
+}
+
+#reservation-button{
+    -fx-border-color: transparent;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-border-insets: 5,5,5,5;
+    -fx-background-insets: 0;
+    -fx-background-color: limegreen;
+    -fx-background-radius: 25;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-font-weight: bold;
+    -fx-content-display: left;
+}
+
+#requests-button{
+    -fx-border-color: transparent;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-border-insets: 5,5,5,5;
+    -fx-background-insets: 0;
+    -fx-background-color: limegreen;
+    -fx-background-radius: 25;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-font-weight: bold;
+    -fx-content-display: left;
+}
+
+#messages-button{
+    -fx-border-color: transparent;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-border-insets: 5,5,5,5;
+    -fx-background-insets: 0;
+    -fx-background-color: limegreen;
+    -fx-background-radius: 25;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-font-weight: bold;
+    -fx-content-display: left;
+}
+
+#reviews-button{
+    -fx-border-color: transparent;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-border-insets: 5,5,5,5;
+    -fx-background-insets: 0;
+    -fx-background-color: limegreen;
+    -fx-background-radius: 25;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-font-weight: bold;
+    -fx-content-display: left;
+}
+
+#add_button, #delete_button{
+    -fx-border-color: transparent;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-border-insets: 5,5,5,5;
+    -fx-background-insets: 0;
+    -fx-background-color: limegreen;
+    -fx-background-radius: 25;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-font-weight: bold;
+    -fx-content-display: left;
+}
+
+#approve-button, #reject-button{
+    -fx-border-color: transparent;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-border-insets: 5,5,5,5;
+    -fx-background-insets: 0;
+    -fx-background-color: limegreen;
+    -fx-background-radius: 25;
+    -fx-font-size: 16px;
+    -fx-pref-width: 220px;
+    -fx-font-weight: bold;
+    -fx-content-display: left;
+}
+
+
+.button:pressed{
+    -fx-translate-y: 4px;
+}
+
+#welcome-text{
+    -fx-font-weight: BOLD;
+    -fx-font-size: 25px;
+    -fx-alignment: center;
+}
+
+#host-grid{
+    -fx-background-color: limegreen;
+}
+
+/* CSS for TableView */
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-row-cell {
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: limegreen;
+    -fx-text-fill: white;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+}
+
+.table-row-cell:even {
+    -fx-background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table-cell {
+    -fx-alignment: center-left;
+    -fx-text-fill: white;
+}
+
+.table-header-background {
+    -fx-background-color: black;
+}
+
+.table-header-background .label {
+    -fx-text-fill: white;
+}
+
+.table-view:focused .table-row-cell:selected:focused {
+    -fx-background-color: limegreen;
+    -fx-text-fill: white;
+}
+
+.table-view .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: black;
+}
+
+.table-view .column-header-background .label {
+    -fx-text-fill: black;
+}

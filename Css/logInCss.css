@@ -1,0 +1,55 @@
+.text-field{
+    -fx-font-family: 'Helvetica';
+    -fx-font-size: 13;
+    -fx-padding: 2;
+    -fx-border-color: grey;
+    -fx-border-width: 2;
+    -fx-border-radius: 25;
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+    -fx-pref-width: 200;
+    -fx-prompt-text-fill: green;
+}
+
+.label{
+    -fx-font-family: 'Helvetica';
+    -fx-font-size: 15;
+    -fx-text-fill: white;
+}
+
+#logInBt{
+    -fx-alignment: center;
+    -fx-font-family:'Helvetica';
+    -fx-font-size: 20;
+    -fx-padding: 2;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-background-color: green;
+    -fx-pref-width: 200px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , #999 , 10,0,0,1 );
+}
+
+#signUpBt{
+    -fx-alignment: center;
+    -fx-font-family:'Helvetica';
+    -fx-font-size: 20;
+    -fx-padding: 2;
+    -fx-border-radius: 25;
+    -fx-border-width: 2;
+    -fx-background-color: green;
+    -fx-pref-width: 300px;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( gaussian , #999 , 10,0,0,1 );
+}
+
+.button:pressed{
+    -fx-background-color: green;
+    -fx-translate-y: 4px;
+}
+
+#error-text{
+    -fx-fill: red;
+    -fx-font-family: Arial;
+    -fx-font-size: 16px;
+}
